@@ -1,9 +1,6 @@
 machine:
   node:
     version: 6.9.2
-dependencies:
-  pre:
-    - npm install --save-dev karma-phantomjs2-launcher
 test:
   override:
     - karma start karma.conf.js --single-run
