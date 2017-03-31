@@ -3,9 +3,9 @@ machine:
     version: 6.9.2
 test:
   override:
-    - karma start karma.conf.js --single-run
+    - npm test --single-run
 deployment:
   staging:
     branch: master
     heroku:
-      appname: vbalas-todo-app    
+      appname: vbalas-todo-app
